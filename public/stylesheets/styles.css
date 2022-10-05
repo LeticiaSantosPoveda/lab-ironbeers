@@ -5,3 +5,82 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #bfbfbf;
+}
+
+nav {
+    background-color: #2081c3;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav a {
+    color: #f7f9f9;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.portada a {
+    color: #f7f9f9;
+    text-decoration: none;
+    background-color: #2081c3;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 170px;
+    margin-top: 30px;
+}
+
+.portada img {
+    display: block;
+    margin: auto;
+    width: 350px;
+    padding-top: 30px;
+}
+
+#singleBeer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#imgSingleBeer img {
+   height: 40vh;
+   display: block;
+   margin: auto;
+}
+
+#divGlobal {
+    width: 20vw;
+    margin: 40px;
+}
+
+footer {
+    background-color: #0a2c42;
+    color: #bfbfbf;
+    height: 70px;   
+    position: fixed; 
+    bottom: 0;
+    width: 100vw;   
+}
+
+footer p {
+    margin-left: 40px; 
+    font-weight: bold;
+}
+
+
+

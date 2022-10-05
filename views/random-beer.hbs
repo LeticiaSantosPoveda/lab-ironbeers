@@ -1,0 +1,7 @@
+<div class="beerRandom">
+{{#each randomBeers}}
+    {{> beerpartial}}
+    <p id="foodPairing">{{this.food_pairing}}</p>
+    <p id="tips">{{this.brewer_tips}}</p>        
+{{/each}}
+</div>
