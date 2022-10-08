@@ -68,6 +68,24 @@ nav a {
     margin: 40px;
 }
 
+h4 {
+    font-weight: bold;
+    color: gray;
+}
+
+#span {
+    font-weight: bold;
+}
+
+.beerRandom {
+    margin: 40px;
+}
+
+#extrasRandom {
+    margin: 40px;
+    padding-bottom: 50px;
+}
+
 footer {
     background-color: #0a2c42;
     color: #bfbfbf;

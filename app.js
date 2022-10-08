@@ -28,7 +28,7 @@ app.get('/beers', (req, res) => {    // con async await metemos el async delante
   .then(beersFromApi => {
     console.log('Beers from the database: ', beersFromApi)
     const data = {
-      beers: beersFromApi         // es porque el render no me admite un array, lo meto dentro de un array.
+      beers: beersFromApi  // es porque el render no me admite un array, lo meto dentro de un objeto.
     }
     res.render('beers', data);    // res.render dentro de la promise
   })
